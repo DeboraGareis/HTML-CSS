@@ -1,0 +1,26 @@
+html{
+    font-family:"Tahoma";
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body{
+    background-color: #c0a2f4;
+}
+
+h1{ 
+    color:#1b2830;
+}
+.encabezado{
+  padding: 10px; 
+  border: 3px solid #290d48; 
+  background-color: #a367d8; 
+}

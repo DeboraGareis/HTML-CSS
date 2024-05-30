@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nombre Empresa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        /*para evitar espacio superior que se genera por defecto */ 
+        margin:0;padding: 0;
+        background-image:url(imagen.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        }
+      header{
+        background-color: rgb(254, 189, 110);
+      }
+      header h1{
+        font-size: 60px;
+        color: rgb(22, 15, 6);
+        text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /*para que solo el h1 del encabezado no tenga el margen que trae por defecto:*/ 
+        margin: 0;
+      }
+      h2,p{
+        color: rgb(0,0,0);
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+      }
+      nav{
+        
+        background-color: rgb(249, 197, 134);
+        width: 100%; height: 40px;
+        text-align: center;
+      }
+      /*
+      caracterizar a etiquetas "a" dentro del nav con "nav a"
+      */
+      nav a{
+        font-family:'Times New Roman', Times, serif;
+        display: inline-flex;
+        justify-content: center;
+        align-items:center;
+        width: 20%; height: 100%;
+        background-color: rgb(241, 174, 92);
+        text-decoration:none;
+        color: rgb(28, 21, 12);
+        font-size: 20px;
+      }
+
+      nav a:hover{
+        background-color: rgb(207, 131, 39);
+      }
+      section{
+        background-color: rgb(247, 219, 184);
+        width: 50%;
+        min-height: 600px;
+        margin: auto;
+      }
+      main{
+        background-color: aqua;
+        width: 100%;min-height: 450px;
+      }
+      iframe{
+        background-color: white;
+        width: 100%;height: 450px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header><h1>Empresa</h1></header>
+    <nav>
+      <a href="../proy1/PaginaInicio.html" target="paginas">Sobre nosotros</a>
+      <a href="">Servicios</a>
+      <a href="">Contacto</a>
+    </nav>
+    <!---->
+    <section>
+      <h2>Ubicación:</h2>
+      <p>..............</p>
+      <h2>Nuestras redes sociales:</h2>
+      <p>..............</p>
+    </section>  
+    <main>
+      <iframe name="paginas" src="" frameborder="0"> </iframe>
+    </main>
+  </body>
+</html>
