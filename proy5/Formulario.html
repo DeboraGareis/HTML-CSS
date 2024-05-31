@@ -3,18 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <title>Page Title</title>
+    <style>
+      html{
+        height: 100%;
+      }
+      body{
+        align-content: center;
+        text-align: center;
+        height: 100%;
+        background: radial-gradient(#ffffff , rgb(134, 241, 184)70%); 
+      }
+      h1,p,label{
+        font-family: cursive;
+      }
+      .boton{
+        display: block;
+        margin-top: 20px;
+        margin-left: 60%;
+        margin-right: 40%;
+        background-color: rgb(147, 220, 181);
+        font-family: cursive;
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="instrucciones.js"></script>
   </head>
   <body>
     <h1>Datos Personales</h1>
     <p>Por favor, complete el siguiente formulario</p>
+    
     <form>
-      <label for="fname">First name:</label><br>
+      <label for="fname">Nombre:</label><br>
       <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
+      <label for="lname">Apellido:</label><br>
       <input type="text" id="lname" name="lname">
-      <input type="submit" onclick="enviar()" value="enviar">
+      <input type="submit" onclick="enviar()" value="Enviar" class="boton">
     </form>
   </body>
 </html>
