@@ -1,0 +1,36 @@
+*{
+    margin:0; padding: 0;
+}
+nav{
+    width: 100%;
+}
+nav li{
+    list-style: none;   
+}
+nav a:hover{
+    background-color: rgb(85, 168, 140);
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(112, 228, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: 1px solid rgb(98, 184, 155); 
+}
+.menuPrincipal> li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+li ul{
+    display: none;
+}
+
+li:hover ul{
+    display: block;
+}
+
+
+
+
