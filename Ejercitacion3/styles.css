@@ -1,0 +1,48 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: rgb(91, 91, 91);
+}
+
+code{
+    background-color: rgb(236, 235, 235);
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    width: 30%;
+    float: left;
+    height: 100%;
+    position: fixed;
+
+}
+main{
+    width: 70%;
+    float: left;
+    display: block;
+    margin-left:30% ;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    border: solid rgb(46, 46, 46) 1px;  
+    padding: 10px;
+    margin-right: 10px;
+}
+a:hover{
+    background-color: rgb(236, 235, 235);
+}
+.titulo_nav{
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}

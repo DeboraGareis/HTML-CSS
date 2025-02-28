@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box; /*para q el tamaño de la caja sea estable, e incluya al padding*/
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*con wrap los elementos se colocan en varias líneas si no caben en una sola*/
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /*establecer espacio entre los elementos*/
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover; /*permite q la imagen se recorte para ocupar todo el espacio que se le asigne*/
+  border-radius: 10px;
+}
+
+/*agregar un conteido vacio al final de los elementos de galeria, evitar foto centrada*/
+.gallery::after {
+  content: "";
+  width: 350px;
+}

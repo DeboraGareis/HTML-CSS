@@ -1,0 +1,62 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+section{
+    width: 100%;
+}
+#welcome-section{
+    background-color: rgb(43, 43, 43);
+    height: 100vw;/*100% de la ventana grafica*/
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+#projects{
+    background-color: rgb(17, 56, 91);
+    height: 100vw;
+}
+#projects a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+nav{
+    width: 100%; height: 40px;
+    background-color: rgb(165, 42, 87);
+    position: fixed;
+}
+nav a{
+    font-size: 20px; 
+    display: block;
+    float: right;
+    text-decoration: none;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:white;
+}
+nav a:hover{
+    background-color: rgb(187, 66, 110);
+}
+#plink{
+    background-color: rgb(173, 63, 98);
+    height: 100vw;  
+}
+
+#plink a{
+        margin: 20px;
+        font-size: 30px; 
+        text-decoration: none;
+        color:white;
+
+    }
+    

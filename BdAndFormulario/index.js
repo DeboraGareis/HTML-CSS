@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended:false}));
 //mensaje de prueba con get
 //app.get("/",function(req,res){res.send("buenos dias!!!")})
 
-//ruta de archivos estaticos
+//ruta si quiero usar archivos estaticos
 //app.use(express.static("public"));
 
 app.set("view engine", "ejs");
@@ -32,10 +32,7 @@ app.post("/validar",function(req,res){
             console.log("datos almacenados correctamente");
         }
     });
-    
-
 });
-
 
 //Puerto para el servidor local
 app.listen(3000,function(){
